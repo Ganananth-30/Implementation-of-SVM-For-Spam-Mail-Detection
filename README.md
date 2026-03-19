@@ -38,18 +38,25 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score, classification_report
 
+
+
 # Load the data
 df = pd.read_csv( "C:Users/acer/Downloads/spam.csv" , encoding='latin-1')
+
+
 
 # Keep only the first two columns and rename them
 df = df.iloc[:, :2]
 df.columns = ['label', 'message']
 
+
 # Convert labels: ham = 0, spam = 1
 df['label'] = df['label'].map({'ham': 0, 'spam': 1})
 
+
 # Remove any rows with missing values
 df = df.dropna()
+
 
 # Display basic info
 print("Dataset shape:", df.shape)
@@ -58,12 +65,15 @@ print(df.head())
 print("\nClass distribution:")
 print(df['label'].value_counts())
 
+
 # Split data into features (X) and target (y)
 X = df['message']
 y = df['label']
 
+
 # Split into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
 
 # Convert text to numerical features using TF-IDF
 vectorizer = TfidfVectorizer(max_features=5000, stop_words='english')
