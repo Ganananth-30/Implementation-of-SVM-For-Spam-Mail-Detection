@@ -100,14 +100,13 @@ for msg in test_messages:
 
 ## Output:
 
-<img width="994" height="643" alt="Screenshot 2026-03-19 184736" src="https://github.com/user-attachments/assets/11a7a42e-a9b3-43aa-ab6e-59fda4563b38" />
+<img width="832" height="221" alt="Screenshot 2026-03-19 192112" src="https://github.com/user-attachments/assets/a1a19c3e-d211-4674-83b7-72f41888508c" />
 
+<img width="722" height="183" alt="Screenshot 2026-03-19 192122" src="https://github.com/user-attachments/assets/a2e7b7e1-60b8-4522-9971-0b0e0e53a99d" />
 
+<img width="703" height="249" alt="Screenshot 2026-03-19 192129" src="https://github.com/user-attachments/assets/654836cf-5f05-4850-ac22-bb5a9aa94688" />
 
-
-
-<img width="1208" height="198" alt="Screenshot 2026-03-19 184747" src="https://github.com/user-attachments/assets/71d024a6-e8c0-4f28-b392-231b92ac3bc6" />
-
+<img width="847" height="210" alt="Screenshot 2026-03-19 192134" src="https://github.com/user-attachments/assets/b9a125ed-ba4a-4344-b5bc-c4a14641f443" />
 
 ## Result:
 Thus the program to implement the SVM For Spam Mail Detection is written and verified using python programming.
